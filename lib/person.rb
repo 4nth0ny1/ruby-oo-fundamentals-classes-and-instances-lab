@@ -1,8 +1,6 @@
 class Person 
-    def initialize(name)
-        @name = name 
-    end 
+    attr_accessor :name
 end
 
-adele_goldberg = Person.new("Adele Goldberg")
-alan_kay = Person.new("Alan Kay")
+adele_goldberg = Person.new
+alan_kay = Person.new
