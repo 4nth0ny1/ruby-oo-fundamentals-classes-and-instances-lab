@@ -1,9 +1,7 @@
-class Dog 
-    def initialize(name)
-        @name = name 
-    end
-end
+class Dog
+    attr_accessor :name
+end 
 
-fido = Dog.new("fido")
-snoopy = Dog.new("snoopy")
-lassie = Dog.new("lassie")
+fido = Dog.new
+snoopy = Dog.new
+lassie = Dog.new
